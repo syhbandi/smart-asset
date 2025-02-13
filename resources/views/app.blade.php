@@ -8,7 +8,7 @@
     <title>{{ config('app.name', 'Rag System') }}</title>
     <link type="image/x-icon" href="{{ asset('assets/smart-logo.png') }}" rel="icon" />
     <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
-    @vite(['resources/css/app.scss', 'resources/js/app.jsx'])
+    @vite(['resources/css/app.scss', 'resources/js/app.js'])
   </head>
 
   <body

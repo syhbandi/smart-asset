@@ -6,7 +6,7 @@
     <!-- Mobile Logo -->
     <div class="-ms-1 flex items-center gap-1 lg:hidden">
       <a class="shrink-0" href="html/demo1.html">
-        <img class="max-h-[25px] w-full" src="assets/media/app/mini-logo.svg" />
+        <img class="max-h-[25px] w-full" src="{{ asset('assets/mini-logo.png') }}" />
       </a>
       <div class="flex items-center">
         <button class="btn-icon btn btn-sm btn-clear btn-light" data-drawer-toggle="#sidebar">

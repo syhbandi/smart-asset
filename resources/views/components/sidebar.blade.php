@@ -5,14 +5,12 @@
   <div class="sidebar-header relative hidden shrink-0 items-center justify-between px-3 lg:flex lg:px-6"
     id="sidebar_header">
     <a class="inline-flex items-center gap-2 dark:hidden" href="/">
-      <img class="default-logo max-h-[50px] min-h-[22px] max-w-none" src="assets/smart-logo.png" />
-      <img class="small-logo max-h-[50px] min-h-[22px] max-w-none" src="assets/smart-logo.png" />
-      <h1 class="text-2xl font-semibold">SmartAsset</h1>
+      <img class="default-logo max-h-[50px] min-h-[22px] max-w-none" src="{{ asset('assets/default-logo.png') }}" />
+      <img class="small-logo max-h-[50px] min-h-[22px] max-w-none" src="{{ asset('assets/mini-logo.png') }}" />
     </a>
     <a class="hidden items-center gap-2 dark:inline-flex" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="assets/smart-logo.png" />
-      <img class="small-logo min-h-[22px] max-w-none" src="assets/smart-logo.png" />
-      <h1 class="text-2xl font-semibold">SmartAsset</h1>
+      <img class="default-logo min-h-[22px] max-w-none" src="{{ asset('assets/dark-logo.png') }}" />
+      <img class="small-logo min-h-[22px] max-w-none" src="{{ asset('assets/mini-logo.png') }}" />
     </a>
     <button
       class="toggle btn-icon btn btn-icon-md absolute start-full top-2/4 size-[30px] -translate-x-2/4 -translate-y-2/4 rounded-lg border border-gray-200 bg-light text-gray-500 hover:text-gray-700 dark:border-gray-300 rtl:translate-x-2/4"
